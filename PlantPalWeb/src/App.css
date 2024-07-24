@@ -1,0 +1,88 @@
+.app {
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.add-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.add-card label {
+  width: 100%;
+  color: darkgreen
+}
+
+.add-card textarea {
+  width: 100%;
+  resize: vertical;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: rgb(242, 242, 235);
+  border-color: lightblue;
+  padding: 12px;
+}
+
+.add-card button {
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  width: 500px;   
+  margin: 10px;
+}
+
+.card-list {
+  margin: 20px 0;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-item {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 12px;
+  background: lightblue;
+  width: calc(50% - 10px);
+  height: 205px;
+}
+
+.card-selected-item {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 12px;
+  background: lightgreen;
+  width: calc(50% - 10px);
+  height: 140px;
+}
+
+.card-item p {
+  word-wrap: break-word;
+}
+
+
+.card-item-edit {
+  width: 100px;
+}
+
+.card-item2-edit {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.card-item-delete {
+  width: 100px;
+}
+
+.card-item-delete {
+  width: 100px;
+}
+
