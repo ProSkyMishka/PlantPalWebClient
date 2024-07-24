@@ -4,6 +4,7 @@ WORKDIR /web
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 # Install project dependencies
+RUN apt-get install npm -y
 RUN npm install
 COPY . .
 # Expose the port on which your React app will run (default is 3000)
